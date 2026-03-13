@@ -18,6 +18,7 @@ However, the table also requires:
 Therefore, a product cannot be stored unless an order is created. This makes it impossible to insert product information independently.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Update Anomaly:
 
 Product information such as product_name, category, and unit_price is repeated in multiple rows whenever the same product appears in different orders.
@@ -25,6 +26,7 @@ For example, if a product with a specific product_id appears in many rows and it
 If one row is not updated, inconsistent data will occur where the same product has different prices.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Delete Anomaly:
 
 If a row is deleted from the orders_flat table, important information may also be lost.
@@ -38,6 +40,7 @@ For example, if a product appears in only one order and that order is deleted, t
 Even though the product still exists, its information will no longer be stored in the database.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Example row fields:
 
 product_id = P105

@@ -1,1 +1,37 @@
+[
+{
+  "product_id": "E101",
+  "name": "Smartphone X",
+  "category": "Electronics",
+  "price": 45000,
+  "brand": "TechPro",
+  "warranty_years": 2,
+  "specifications": {
+    "battery": "5000mAh",
+    "voltage": "220V"
+  },
+  "features": ["5G", "Fast Charging"]
+},
+
+{
+  "product_id": "C201",
+  "name": "Men T-Shirt",
+  "category": "Clothing",
+  "price": 1200,
+  "size_available": ["S","M","L","XL"],
+  "material": "Cotton"
+},
+
+{
+  "product_id": "G301",
+  "name": "Organic Milk",
+  "category": "Groceries",
+  "price": 250,
+  "expiry_date": "2024-12-30",
+  "nutrition": {
+    "calories": 60,
+    "protein": "2g"
+  }
+}
+]
 
